@@ -1,0 +1,3 @@
+const existEmail = async (mail="")=>{
+    
+}

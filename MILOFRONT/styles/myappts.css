@@ -1,0 +1,119 @@
+aside {
+  height: 85vh;
+}
+
+.container-info h1 {
+  justify-content: flex-start;
+  padding-left: 3rem;
+}
+
+.data-appoint {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr;
+}
+.container-profile {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+#imageProfile {
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 10rem;
+}
+#imageProfileF {
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  height: auto;
+}
+
+.data-appoint__container {
+  text-align: center;
+}
+
+.buttons-appoint {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.buttons-appoint button {
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+ol {
+  line-height: 1;
+  display: inline-block;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.container-video {
+  padding: 0 1rem 0 0;
+  width: 30rem;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/*Css para la parte inferior */
+.additional-data {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h2,
+ol {
+  margin: 0;
+}
+.previousAppts {
+  padding-left: 2rem;
+}
+
+.list-appoints {
+  padding-left: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+}
+.list-appoints__data {
+  margin-left: 3rem;
+  line-height: 0.5;
+}
+
+.myTests {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+.myTests h2 {
+  padding-left: 2rem;
+}
+
+.myTests nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.myTests nav div {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+/*Bordes*/
+
+.additional-data {
+  border-top: 1px solid black;
+}
+.previousAppts {
+  border-right: 1px solid black;
+}

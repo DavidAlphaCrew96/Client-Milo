@@ -1,0 +1,178 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+button {
+  font-size: 2rem;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+label,
+input {
+  font-size: 1rem;
+}
+
+.wind {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+#backFunction,
+#nextFunction {
+  width: auto;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+.sessions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  padding: 1rem;
+}
+
+/*Borders*/
+.bord {
+  height: 85vh;
+  border: 1px solid black;
+}
+.navigation {
+  border: 1px solid black;
+}
+.side-content {
+  border: 1px solid black;
+}
+
+.core-content-nav {
+  border-bottom: 1px solid black;
+}
+
+.contenido-profile {
+  border-bottom: 1px solid black;
+}
+#container-image-profile {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+#imageProfile {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.combined-content {
+  border-right: 1px solid black;
+}
+
+.side-content__nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2.5rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.core-content-items {
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.core-content-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.content-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.content-profile-info {
+  padding: 1rem;
+}
+
+.content-profile-info p {
+  padding-left: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.content-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.core-content-items ul li {
+  display: inline-block;
+  width: auto;
+  height: auto;
+
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.core-content-items ul li:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.core-content-items ul li > ul {
+  display: none;
+}
+
+.core-content-items ul li:hover > ul {
+  display: block;
+  position: absolute;
+  background-color: white;
+  top: 30px;
+  left: 0px;
+}
